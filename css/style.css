@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main {width:1215px; height: 1064px; margin-left: 33px;
+}
+.block1{
+  width: 1215px; height: 36px;
+background-color: rgb(8, 82, 146) ;
+}
+.fon{
+width:1215px; height: 1028px;
+}
