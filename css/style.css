@@ -5,9 +5,34 @@
 .main {width:1215px; height: 1064px; margin-left: 33px;
 }
 .block1{
+position: absolute;
   width: 1215px; height: 36px;
 background-color: rgb(8, 82, 146) ;
 }
 .fon{
 width:1215px; height: 1028px;
+}
+.block3{
+/*  position: absolute; /* Абсолютное позиционирование */
+      /* left: 0; /* Положение левого края */
+      /* top: 0; /* Положение верхнего края */
+width:560px; height: 62px;
+background-color: rgba(90, 90, 90, 0.5) ;
+padding-top: 20px;
+text-align: center;
+color: white;
+font-size: 24pt;
+
+}
+
+.block4{
+/*  position: absolute; /* Абсолютное позиционирование */
+      /* left: 0; /* Положение левого края */
+    /*   top: 64px; /* Положение верхнего края */
+
+
+
+  margin-top: 2px;
+  width:560px; height: 549px;
+  background-color: rgba(90, 90, 90, 0.5) ;
 }
