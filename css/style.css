@@ -94,7 +94,17 @@
   width:1215px; height: 1028px;
 }
 .rows{
-  padding-left: 165px;
+  padding-left: 140px;
+}
+INPUT.txt:focus {
+    border: 3px solid rgb(75, 135, 175);
+    background-color: rgb(27, 82, 136);
+   }
+.txt{
+   width: 276px;
+   height: 35px;
+  background-color: black;
+   color: white;
 }
 .form_header{
       margin: auto;
@@ -112,8 +122,29 @@
     width:560px; height: 549px;
     background-color: rgba(90, 90, 90, 0.5) ;
 }
-
-
+.clicking{
+    margin-top: 30px;
+  text-align: center;
+  color: white;
+}
+.send_my{
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+}
+.account{
+    margin-top: 30px;
+background-image:linear-gradient(to bottom, rgb(78, 171, 218), rgb(60, 190, 250));
+margin-left: 200px;
+margin-right: 200px;
+text-align: center;
+text-decoration: none;
+}
+.button{
+  margin-top: 30px;
+  text-decoration: none;
+color: white;
+}
 .row{
   padding-top: 10px;
   padding-left: 10px;
