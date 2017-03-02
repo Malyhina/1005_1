@@ -93,6 +93,34 @@
   padding-top: 200px;
   width:1215px; height: 1028px;
 }
+.fb{
+
+}
+.faceb{
+    height: 30px;
+    width: 276px;
+    border-radius: 3px;
+    margin-top: 30px;
+    padding-top: 10px;
+    background-image:linear-gradient(to bottom, rgb(59, 86, 173), rgb(46, 64, 112));
+    margin-left: 150px;
+    margin-right: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button1{
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+  border-right: solid 1px;
+}
+.button2{
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+}
+
 .rows{
   padding-left: 140px;
 }
@@ -103,7 +131,7 @@ INPUT.txt:focus {
 .txt{
    width: 276px;
    height: 35px;
-  background-color: black;
+   background-color: black;
    color: white;
 }
 .form_header{
@@ -124,27 +152,33 @@ INPUT.txt:focus {
 }
 .clicking{
     margin-top: 30px;
-  text-align: center;
-  color: white;
+    text-align: center;
+    color: white;
 }
 .send_my{
   margin-top: 30px;
   text-align: center;
   color: white;
 }
+
 .account{
+    height: 30px;
+    border-radius: 3px;
     margin-top: 30px;
-background-image:linear-gradient(to bottom, rgb(78, 171, 218), rgb(60, 190, 250));
-margin-left: 200px;
-margin-right: 200px;
-text-align: center;
-text-decoration: none;
+    padding-top: 10px;
+    background-image:linear-gradient(to bottom, rgb(80, 175, 220), rgb(65, 115, 141));
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    text-decoration: none;
 }
+
 .button{
   margin-top: 30px;
   text-decoration: none;
-color: white;
+  color: white;
 }
+
 .row{
   padding-top: 10px;
   padding-left: 10px;
