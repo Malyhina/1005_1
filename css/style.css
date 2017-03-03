@@ -3,7 +3,8 @@
   margin: 0;
 }
 .main{
-  width:1215px; height: 1064px; margin-left: 33px;
+  width:1215px; height: 1028px; margin-left: 33px;
+  background-image: url(background.png);
 }
 
 .block1{
@@ -89,24 +90,50 @@
 }
 .block2{
 /*  background-color: rgb(0, 250, 250); */
-  background-image: url(background.jpg);
-  padding-top: 200px;
+
+  padding-top: 180px;
   width:1215px; height: 1028px;
 }
-.fb{
 
-}
 .faceb{
     height: 30px;
     width: 276px;
     border-radius: 3px;
-    margin-top: 30px;
-    padding-top: 10px;
+    margin-top: 02px;
+
     background-image:linear-gradient(to bottom, rgb(59, 86, 173), rgb(46, 64, 112));
     margin-left: 150px;
     margin-right: 200px;
     text-align: center;
     text-decoration: none;
+}
+.facebul{
+
+}
+.facebli {
+
+    display: inline;
+    margin-right: 05px;
+    margin-left: -50px;
+}
+.facebli > a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 20pt;
+}
+
+.faceb1li_activ{
+  text-align: center;
+  text-decoration: none;
+    display: inline;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+.faceb1li_activ > a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
 }
 
 .button1{
@@ -133,12 +160,14 @@ INPUT.txt:focus {
    height: 35px;
    background-color: black;
    color: white;
+   border: none;
+   border-bottom: solid 2px grey;
 }
 .form_header{
       margin: auto;
       width:560px; height: 52px;
-      background-color: rgba(90, 90, 90, 0.5) ;
-      padding-top: 10px;
+      background-color: rgba(30, 30, 30, 0.75) ;
+      padding-top: 18px;
       text-align: center;
       color: white;
       font-size: 24pt;
@@ -148,9 +177,10 @@ INPUT.txt:focus {
     margin: auto;
     margin-top: 2px;
     width:560px; height: 549px;
-    background-color: rgba(90, 90, 90, 0.5) ;
+    background-color: rgba(30, 30, 30, 0.75) ;
 }
 .clicking{
+  height: 100px;
     margin-top: 30px;
     text-align: center;
     color: white;
