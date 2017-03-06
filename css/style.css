@@ -106,6 +106,7 @@
     margin-right: 200px;
     text-align: center;
     text-decoration: none;
+    margin-bottom: 10px;
 
 }
 .facebul{
@@ -131,13 +132,16 @@
     display: inline;
     margin-right: 20px;
     margin-left: 5px;
+    margin-bottom: 10px;
 }
 .faceb1li_activ > a {
   text-align: center;
   text-decoration: none;
   color: white;
 }
-
+.fb{
+  padding-bottom: 30px;
+}
 .button1{
   margin-top: 30px;
   text-decoration: none;
@@ -167,7 +171,8 @@ INPUT.txt:focus {
    color: white;
    border: none;
    border-bottom: solid 2px grey;
-}
+   padding-left: 15px;
+ }
 .form_header{
       margin: auto;
       width:560px; height: 52px;
