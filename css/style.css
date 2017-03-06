@@ -106,8 +106,10 @@
     margin-right: 200px;
     text-align: center;
     text-decoration: none;
+
 }
 .facebul{
+  margin-top: 0px;
 
 }
 .facebli {
@@ -147,7 +149,10 @@
   text-decoration: none;
   color: white;
 }
-
+.ou{
+  margin-top: 20px;
+  margin-left: 150px;
+}
 .rows{
   padding-left: 140px;
 }
@@ -166,7 +171,7 @@ INPUT.txt:focus {
 .form_header{
       margin: auto;
       width:560px; height: 52px;
-      background-color: rgba(30, 30, 30, 0.75) ;
+      background-color: rgba(0, 0, 0, 0.5) ;
       padding-top: 18px;
       text-align: center;
       color: white;
@@ -177,13 +182,20 @@ INPUT.txt:focus {
     margin: auto;
     margin-top: 2px;
     width:560px; height: 549px;
-    background-color: rgba(30, 30, 30, 0.75) ;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    padding-top: 20px;
+}
+.by{
+  text-align: center;
+  font-size: 11pt;
 }
 .clicking{
-  height: 100px;
+    height: 100px;
     margin-top: 30px;
     text-align: center;
     color: white;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .send_my{
   margin-top: 30px;
