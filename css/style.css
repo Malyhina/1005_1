@@ -6,7 +6,9 @@
   width:1215px; height: 1028px; margin-left: 33px;
   background-image: url(background.png);
 }
-
+.@font-face {
+  
+}
 .block1{
   width: 1215px; height: 36px;
   background-color: rgb(7, 76, 137);
