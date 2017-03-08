@@ -7,7 +7,8 @@
   background-image: url(background.png);
 }
 .@font-face {
-  
+font-family: helvetica;
+src: url(C:front_end\1005_1\fonts\HelveticaNeue.ttf)
 }
 .block1{
   width: 1215px; height: 36px;
@@ -18,7 +19,7 @@
     margin: 0;
     padding: 0;
     padding: 2px;
-    padding-left: 350px;
+    padding-left: 300px;
 }
 .brick1li {
     display: inline;
@@ -28,7 +29,7 @@
 .brick1li > a {
   color: rgb(96, 181, 237);
   text-decoration: none;
-  font-family: open sans;
+font-family: helvetica;
 }
 .brick1li_activ {
     display: inline;
@@ -46,7 +47,7 @@
 .brick1li_activ > a {
   color: white;
   text-decoration: none;
-  font-family: open sans;
+  font-family: helvetica;
 }
 .brick1li_white {
   display: inline;
@@ -56,7 +57,7 @@
 .brick1li_white > a {
   color: white;
   text-decoration: none;
-  font-family: open sans;
+  font-family: helvetica;
 }
 .brick1li_last{
   display: inline;
@@ -74,8 +75,9 @@
 .brick1li_last > a {
   color: white;
   text-decoration: none;
-  font-family: open sans;
+  font-family: helvetica;
 }
+
 .under {
   display: inline;
   background-image:linear-gradient(to bottom, rgb(78, 171, 218), rgb(60, 190, 250));
@@ -87,73 +89,61 @@
   padding-right: 0px;
   margin-right: 0px;
   margin-left: 0px;
-  font-family: open sans;
+font-family: helvetica;
   text-decoration: underline;
 }
 .block2{
-/*  background-color: rgb(0, 250, 250); */
-
   padding-top: 180px;
   width:1215px; height: 1028px;
 }
-
 .faceb{
     height: 30px;
     width: 276px;
     border-radius: 3px;
-    margin-top: 02px;
-
     background-image:linear-gradient(to bottom, rgb(59, 86, 173), rgb(46, 64, 112));
     margin-left: 150px;
     margin-right: 200px;
     text-align: center;
     text-decoration: none;
-    margin-bottom: 10px;
-
+    font-family: helvetica bold;
+    padding-bottom: 06px;
 }
 .facebul{
   margin-top: 0px;
-
+  padding: 0;
 }
 .facebli {
 
     display: inline;
     margin-right: 05px;
-    margin-left: -50px;
+    margin-left: -30px;
+  /*  border-right: solid 2px gray; */
 }
 .facebli > a {
-  text-align: center;
+
   text-decoration: none;
   color: white;
   font-size: 20pt;
+  font-family: helvetica;
 }
-
 .faceb1li_activ{
-  text-align: center;
-  text-decoration: none;
-    display: inline;
-    margin-right: 20px;
-    margin-left: 5px;
-    margin-bottom: 10px;
+  display: inline;
+  margin-left: 20px;
 }
 .faceb1li_activ > a {
-  text-align: center;
+
   text-decoration: none;
   color: white;
+  font-family: helvetica;
 }
-.fb{
-  padding-bottom: 30px;
-}
-.button1{
-  margin-top: 30px;
+.faceb1li_activ > a > p {
+  display: inline;
+
+
   text-decoration: none;
   color: white;
-  border-right: solid 1px;
-}
-.button2{
-  margin-top: 30px;
-  text-decoration: none;
-  color: white;
+  font-family: helvetica;
+  font-weight: bold;
 }
 .ou{
   margin-top: 20px;
@@ -165,16 +155,20 @@
 INPUT.txt:focus {
     border: 3px solid rgb(75, 135, 175);
     background-color: rgb(27, 82, 136);
+    font-family: helvetica;
    }
 .txt{
-   width: 276px;
+   width: 260px;
    height: 35px;
    background-color: black;
    color: white;
    border: none;
    border-bottom: solid 2px grey;
    padding-left: 15px;
+   font-family: helvetica;
+
  }
+
 .form_header{
       margin: auto;
       width:560px; height: 52px;
@@ -183,7 +177,7 @@ INPUT.txt:focus {
       text-align: center;
       color: white;
       font-size: 24pt;
-
+      font-family: helvetica;
 }
 .form_body{
     margin: auto;
@@ -195,12 +189,14 @@ INPUT.txt:focus {
 .by{
   text-align: center;
   font-size: 11pt;
+  font-family: helvetica;
 }
 .clicking{
     height: 100px;
     margin-top: 30px;
     text-align: center;
     color: white;
+    font-family: helvetica;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -208,6 +204,7 @@ INPUT.txt:focus {
   margin-top: 30px;
   text-align: center;
   color: white;
+  font-family: helvetica;
 }
 
 .account{
@@ -220,12 +217,14 @@ INPUT.txt:focus {
     margin-right: 200px;
     text-align: center;
     text-decoration: none;
+    font-family: helvetica;
 }
 
 .button{
   margin-top: 30px;
   text-decoration: none;
   color: white;
+  font-family: helvetica;
 }
 
 .row{
